@@ -1,0 +1,11 @@
+﻿  CSort.cpp
+  main.cpp
+d:\pycharmcpp_20210828\cplusplus_learning\sort_method\sort_method\csort.h(31): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  d:\pycharmcpp_20210828\cplusplus_learning\sort_method\sort_method\main.cpp(18): note: 参见对正在编译的函数 模板 实例化“void CSort::BubbleSort<false,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Ptr,Ptr)”的引用
+          with
+          [
+              _Ty=double,
+              Ptr=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  正在生成代码...
+  sort_method.vcxproj -> D:\PyCharmCpp_20210828\cplusplus_learning\sort_method\x64\Debug\sort_method.exe
