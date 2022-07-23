@@ -21,6 +21,7 @@ int main(int argc, char **argv)
 	
 	std::cout << "test branch hot_fix based on develop_ma" << std::endl;
 	std::cout << "test branch hot_fix done. you see." << std::endl;
+	std::cout << "add a new user for test git hub submit conflict." << std::endl;
 
 	std::cout << vSortArr3 << std::endl;
 
