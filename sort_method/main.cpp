@@ -23,6 +23,7 @@ int main(int argc, char **argv)
 	std::cout << "test branch hot_fix done. you see." << std::endl;
 	std::cout << "add a new user for test git hub submit conflict." << std::endl;
 
+	std::cout << "new user: cxtjy and test success." << std::endl;
 	std::cout << vSortArr3 << std::endl;
 
 	int arr[] = { 23, 1, -20, 8, 198, 34, 21, 501, -321 };
