@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 
 	csort.SelectSort(vfloatArr.begin() + 2, vfloatArr.end() - 1);
 
-	csort.BubbleSort<false>(vSortArr3.begin()+1, vSortArr3.end()-1);
+	csort.BubbleSort<false>(vSortArr3.begin()+2, vSortArr3.end()-2);
 	
 	std::cout << "test branch hot_fix based on develop_ma" << std::endl;
 	std::cout << "test branch hot_fix done. you see." << std::endl;
