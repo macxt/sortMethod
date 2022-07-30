@@ -25,6 +25,9 @@ int main(int argc, char **argv)
 	std::cout << "test second time add -u parameters." << std::endl;
 
 	//std::cout << "test push by new git user." << std::endl;
+
+	std::cout << "test push by new git user." << std::endl;
+	std::cout << "create develop branch by new user." << std::endl;
 	
 	std::cout << "test branch hot_fix based on develop_ma" << std::endl;
 	std::cout << "test branch hot_fix done. you see." << std::endl;
