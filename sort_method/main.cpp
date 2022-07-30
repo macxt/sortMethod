@@ -20,6 +20,8 @@ int main(int argc, char **argv)
 //	csort.BubbleSort<false>(vSortArr3.begin()+2, vSortArr3.end()-2);
 	csort.BubbleSort<false>(vSortArr3.begin(), vSortArr3.end());
 	
+	std::cout << "test git pull or git push" << std::endl;
+	
 	std::cout << "test branch hot_fix based on develop_ma" << std::endl;
 	std::cout << "test branch hot_fix done. you see." << std::endl;
 	std::cout << "add a new user for test git hub submit conflict." << std::endl;
