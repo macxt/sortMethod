@@ -11,8 +11,8 @@ ProjectModuleName = sort_method
 SrcCodeDir = ${CurrentDir}/../${ProjectModuleName}
 
 #Config append include path and library path variables with ${SrcCodeDir}
-#INCLUDE_DIR += ${SrcCodeDir}/xxx/include ${SrcCodeDir}/yyyyy/include
-#LIBRARY_DIR += ${SrcCodeDir}/xxx/lib ${SrcCodeDir}/yyyyy/lib
+#INCLUDE_DIR += -I${SrcCodeDir}/xxx/include -I${SrcCodeDir}/yyyyy/include
+#LIBRARY_DIR += -L${SrcCodeDir}/xxx/lib -L${SrcCodeDir}/yyyyy/lib
 
 #find all .cpp/.c files and print
 #this operation can ignore some search paths with '-path /some/ignore/path -prune'
@@ -26,8 +26,8 @@ FilterFiles :=
 
 #list final source files
 SourceFiles := $(filter-out ${FilterFiles},${SourceFilesAll})
-SourceFiles_CPP := $(filter %.cpp,${SourceFilesAll})
-SourceFiles_C := $(filter %.c,${SourceFilesAll})
+SourceFiles_CPP := $(filter %.cpp,${SourceFiles})
+SourceFiles_C := $(filter %.c,${SourceFiles})
 
 #list all dependent rule files
 DepRuleFiles := ${SourceFiles_CPP:.cpp=.d}
